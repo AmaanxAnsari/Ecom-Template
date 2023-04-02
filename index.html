@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce</title>
     <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Slick Slider Css -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -29,26 +35,26 @@
             </ul>
 
             <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-outline-primary me-2">Login</button>
-                <button type="button" class="btn btn-primary">Sign-up</button>
+                <button type="button" class="btn btn-outline-dark me-2">Login</button>
+                <button type="button" class="btn btn-dark">Sign-up</button>
             </div>
         </header>
     </div>
     <!-- Banner Carousel  -->
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-5">
-                <h1 style="font-size: 5rem;">
+            <div class="col-lg-5 col-md-6 col-sm-12">
+                <h1 class="display-2">
                     The Greatest Journey of Online Shop.
                 </h1>
-                <p class="text-secondary" style="font-size: 1.5rem;">It only takes 5 minutes and we handle everything
+                <p class="text-secondary h4">It only takes 5 minutes and we handle everything
                     form payment to delivery
                 </p>
                 <button class="btn btn-info btn-lg text-light ">Get Started</button>
             </div>
-            <div class="col-lg-7 ">
+            <div class="col-lg-7  col-md-6 col-sm-12">
                 <div class="d-flex justify-content-center">
-                    <img src="./img/buffer yellow.svg" class="w-75" alt="">
+                    <img src="./img/banner/phone-text.jpg" class="w-75" alt="">
                 </div>
 
             </div>
@@ -56,75 +62,105 @@
     </div>
 
     <!-- Clients Section  -->
-    <div class="container mt-5">
-        <div class="wrapper shadow-sm">
-            <div class="row p-2">
-                <div class="col-lg-2 p-2 border-end">
-                    <h1>
-                        1.6k
-                    </h1>
-                    <h5 class="text-secondary">
-                        Trusted Companies
-                    </h5>
+    <div class="container mt-4">
+        <h1 class="partner-title text-center h1">
+            Over 1.6k Trusted Companies
+        </h1>
+        <div class="partner-wrapper mt-3">
+            <div class="slider">
+                <div class="slide">
+                    <img src="./img/logos/aliexpress-logo.png" alt="">
+                    <!-- <img src="./img/logos/amazon-2.png" alt=""> -->
+                    <img src="./img/logos/macys-logo-1.png" alt="">
+                    <img src="./img/logos/safeway-1.png" alt="">
+                    <img src="./img/logos/target-7.png" alt="">
+                    <img src="./img/logos/walmart.png" alt="">
                 </div>
-                <div class="col-lg-10 d-flex justify-content-around align-items-center">
-                    <div class="row d-flex justify-content-around align-items-center ">
-                        <div class="col-lg-2">
-                            <img class="w-100" src="./img/macys-logo-1.svg" alt="">
-                        </div>
-                        <div class="col-lg-2">
-                            <img class="w-100" src="./img/aliexpress-logo.svg" alt="">
-                        </div>
-                        <div class="col-lg-2">
-                            <img class="w-100" src="./img/walmart.svg" alt="">
-                        </div>
-                        <div class="col-lg-2">
-                            <img class="w-100" src="./img/amazon-2.svg" alt="">
-                        </div>
-                    </div>
+                <div class="slide">
+                    <img src="./img/logos/aliexpress-logo.png" alt="">
+                    <!-- <img src="./img/logos/amazon-2.png" alt=""> -->
+                    <img src="./img/logos/macys-logo-1.png" alt="">
+                    <img src="./img/logos/safeway-1.png" alt="">
+                    <img src="./img/logos/target-7.png" alt="">
+                    <img src="./img/logos/walmart.png" alt="">
+                </div>
 
-                </div>
             </div>
-        </div>
 
+        </div>
     </div>
+
+
 
 
     <!-- Discover Carousel  -->
-    <div class="container mt-5">
+    <div class="container mt-5 mh-100">
         <div class="title d-flex justify-content-center">
-            <h1 style="font-size: 4rem;">Discover Services</h1>
+            <h1 class="display-4">Discover Services</h1>
         </div>
         <div class="service-wrapper mt-5">
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row service-slider">
+                <div class="col-md-12">
                     <div class="card-wrapper d-flex justify-content-center">
                         <div class="card border border-0">
-                            <img src="./img/currency.svg" class="card-img-top w-50 mx-auto" alt="...">
+                            <img src="./img/services/currency.svg" class="card-img-top w-25 mx-auto" alt="...">
                             <div class="card-body">
-                                <p class="card-text fs-5">Shop in 50+ Currencies</p>
+                                <p class="card-text h4">Shop in 50+ Currencies</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-12">
                     <div class="card-wrapper d-flex justify-content-center">
                         <div class="card border border-0">
-                            <img src="./img/secure-pay.svg" class="card-img-top w-50 mx-auto" alt="...">
+                            <img src="./img/services/secure-pay.svg" class="card-img-top w-25 mx-auto" alt="...">
                             <div class="card-body">
-                                <p class="card-text fs-5">Safe & Secure Payments</p>
+                                <p class="card-text h4">Safe & Secure Payments</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-12">
                     <div class="card-wrapper d-flex justify-content-center">
                         <div class="card border border-0">
-                            <img src="./img/customer-service.svg" class="card-img-top w-50 mx-auto" alt="...">
+                            <img src="./img/services/customer-service.svg" class="card-img-top w-25 mx-auto" alt="...">
                             <div class="card-body">
-                                <p class="card-text fs-5">24/7 Customer Service</p>
+                                <p class="card-text h4">24/7 Customer Service</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="card-wrapper d-flex justify-content-center">
+                        <div class="card border border-0">
+                            <img src="./img/services/currency.svg" class="card-img-top w-25 mx-auto" alt="...">
+                            <div class="card-body">
+                                <p class="card-text h4">Shop in 50+ Currencies</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="card-wrapper d-flex justify-content-center">
+                        <div class="card border border-0">
+                            <img src="./img/services/secure-pay.svg" class="card-img-top w-25 mx-auto" alt="...">
+                            <div class="card-body">
+                                <p class="card-text h4">Safe & Secure Payments</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="card-wrapper d-flex justify-content-center">
+                        <div class="card border border-0">
+                            <img src="./img/services/customer-service.svg" class="card-img-top w-25 mx-auto" alt="...">
+                            <div class="card-body">
+                                <p class="card-text h4">24/7 Customer Service</p>
                             </div>
                         </div>
                     </div>
@@ -135,126 +171,132 @@
 
     </div>
 
+
     <!-- Section Start -->
-    <div class="container mt-5">
+    <div class="container my-5">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="icon-wrapper ">
-                    <div class="row">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+                <img class="img-fluid w-75" src="./img/banner/social-media-apps.png" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="title">
+                    <h1 class="display-5">One Click Install Into any website</h1>
+                    <p class="mt-3 text-secondary h6">Let Your Customer buy gift
+                        cards/certificates
+                        for your services &
+                        products already on
+                        your website.</p>
+                </div>
+                <div class="sub-title mt-5 h4">
 
-                        <div class="col-lg-6 mb-4 p-0">
-                            <div class="d-flex justify-content-center ms-5">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/telegram.png" alt="">
-                                </button>
-                            </div>
+                    <ul class="list-group ">
+                        <li class="list-group-item border-0"><span><img class="mx-2" style="width: 2.5%;"
+                                    src="./img/app-icons/arrow.svg" alt=""></span>Sell fixed value gift cards
+                        </li>
+                        <li class="list-group-item border-0"><span><img class="mx-2" style="width: 2.5%;"
+                                    src="./img/app-icons/arrow.svg" alt=""></span>Sell custom
+                            value gift cards</li>
+                        <li class="list-group-item border-0"><span><img class="mx-2" style="width: 2.5%;"
+                                    src="./img/app-icons/arrow.svg" alt=""></span>Sell your
+                            product & services</li>
+                        <li class="list-group-item border-0"><span><img class="mx-2" style="width: 2.5%;"
+                                    src="./img/app-icons/arrow.svg" alt=""></span>Sell in any
+                            currency.</li>
+                    </ul>
+                </div>
 
-                        </div>
-                        <div class="col-lg-6 mb-4 p-0">
-                            <div class="d-flex justify-content-start">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/instagram.png" alt="">
-                                </button>
-                            </div>
+            </div>
+        </div>
+    </div>
 
-                        </div>
+    <!-- Section Start -->
+    <div class="container my-5 p-5 rounded">
+        <div class="brand-wrapper">
+            <div class="row brand-slider ">
+                <div class="col-md-12 brand-slide bg-light">
+                    <div class="brand-title display-5">
+                        <h1 class="h1">Best Gift Cards </h1>
+                        <h1 class="h1">with your Brandings</h1>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 p-0">
-                            <div class="d-flex justify-content-center">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/dribble.png" alt="">
-                                </button>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3 p-0">
-                            <div class="d-flex justify-content-start ms-2">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/apple.png" alt="">
-                                </button>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4 p-0">
-                            <div class="d-flex justify-content-start ms-2">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/drive.png" alt="">
-                                </button>
-                            </div>
-
-                        </div>
+                    <div class="brand-subtitle text-secondary" style="font-size: 1em;">
+                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 mt-4 p-0">
-                            <div class="d-flex justify-content-center ms-5">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/snapchat.png" alt="">
-                                </button>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-6 mt-4 p-0">
-                            <div class="d-flex me-5 ">
-                                <button class="btn bg-white shadow rounded-circle p-2">
-                                    <img src="./img/app-icons/twitter.png" alt="">
-                                </button>
-                            </div>
-
-                        </div>
+                </div>
+                <div class="col-md-12 brand-slide bg-light">
+                    <div class="brand-title" style="font-size: 3em;">
+                        <h1 class="h1">Best Gift Cards </h1>
+                        <h1 class="h1">with your Brandings</h1>
+                    </div>
+                    <div class="brand-subtitle text-secondary" style="font-size: 1em;">
+                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
+                    </div>
+                </div>
+                <div class="col-md-12 brand-slide bg-light">
+                    <div class="brand-title" style="font-size: 3em;">
+                        <h1>Best Gift Cards </h1>
+                        <h1>with your Brandings</h1>
+                    </div>
+                    <div class="brand-subtitle text-secondary" style="font-size: 1em;">
+                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
+                    </div>
+                </div>
+                <div class="col-md-12 brand-slide bg-light">
+                    <div class="brand-title" style="font-size: 3em;">
+                        <h1>Best Gift Cards </h1>
+                        <h1>with your Brandings</h1>
+                    </div>
+                    <div class="brand-subtitle text-secondary" style="font-size: 1em;">
+                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <h1>One Click Install Into any website</h1>
-                <p>Let Your Customer buy gift cards/certificates for your services</p>
-            </div>
-        </div>
-    </div>
 
-
-
-    <br>
-    <br>
-    <br>
-
-    <!-- Section Start -->
-    <div class="container">
-        <div class="row d-flex justify-content-around">
-            <div class="col-lg-4 content">
-                <h1>Best Gift Cards With Your Branding</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, magni.</p>
-            </div>
-            <div class="col-lg-4 control d-flex justify-content-end align-self-end">
-                <>
-            </div>
-        </div>
-
-    </div>
-    <!-- Section End -->
-    <br>
-    <br>
-    <br>
-
-    <!-- Section Start -->
-    <div class="container">
-        <div class="row d-flex justify-content-around">
-            <div class="col-lg-4 btns">
-                <ul>
-                    <li><a href="" class="btn btn-primary">Gift Cards</a></li>
-                    <li><a href="" class="btn btn-primary">iTunes</a></li>
-                    <li><a href="" class="btn btn-primary">Amazon</a></li>
-                    <li><a href="" class="btn btn-primary">Play Store</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4">
-                ***cards****
-            </div>
         </div>
 
     </div>
     <!-- Section End -->
 
+    <!-- Section Start -->
+    <!-- <div class="container mt-5">
+        <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                    aria-selected="true">Custom Gift Card</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">iTunes</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                    aria-selected="false">Amazon</button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                    aria-selected="false">Target eGift Cards</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    ...</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    ...
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    ...
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class=" mob-wrapper bg-warning p-5" style="height: 300px; border-radius: 25px;">
+
+            <h1 class="">Hello </h1>
+
+        </div>
+
+    </div> -->
 
 
 
@@ -263,7 +305,11 @@
 
 
 
-    <script src="./bootstrap/bootstrap-5.3.0-alpha2-dist/js/bootstrap.min.js"></script>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
