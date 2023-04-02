@@ -35,8 +35,8 @@ $(document).ready(function () {
     }),
         $('.brand-slider').slick({
             arrows: true,
-            prevArrow: '<button type="button" class="slick-prev"></button>',
-            nextArrow: '<button type="button" class="slick-next"></button>',
+            prevArrow: '<button type="button" class="slick-prev" style="color:#f15060"></button>',
+            nextArrow: '<button type="button" class="slick-next" style="color:#f15060"></button>',
             infinite: true,
             speed: 3000,
             slidesToShow: 1,
