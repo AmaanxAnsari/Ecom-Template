@@ -43,13 +43,8 @@ body {
   .cards {
     display: flex;
   }
+  .btnName {
+    font-size: 0.5em;
+    justify-content: center;
+  }
 }
-
-/* .slick-next:before,
-.slick-prev:before {
-  font-family: slick;
-  font-size: 25px;
-  line-height: 1;
-  opacity: 0.85;
-  color: #f15060;
-} */
