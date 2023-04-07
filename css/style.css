@@ -36,15 +36,47 @@ body {
   }
 }
 
-.cards {
-  display: inline-grid;
+.card .card-img {
+  width: 100% !important;
+  height: 100% !important;
 }
+@media (max-width: 480px) {
+  #amazon-tab,
+  #gift-tab,
+  #apple-tab,
+  #playstore-tab {
+    padding: 0px !important;
+  }
+}
+
 @media (max-width: 576px) {
-  .cards {
-    display: flex;
+  .text-dark {
+    font-size: 0.5rem;
   }
-  .btnName {
-    font-size: 0.5em;
-    justify-content: center;
+
+  .btn-container {
+    border: none !important;
   }
+  .btn-container.btn-wrapper.btn-md {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 820px) {
+  .text-dark {
+    font-size: 0.8rem;
+  }
+
+  .btn-container {
+    border: none !important;
+  }
+
+  .box-row {
+    width: 800px;
+  }
+}
+
+.card .card-img {
+  width: 100% !important;
+  height: 100% !important;
 }

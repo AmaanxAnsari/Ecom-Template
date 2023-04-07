@@ -34,7 +34,9 @@ $(document).ready(function () {
     }),
         $('.brand-slider').slick({
             arrows: false,
+            dots: true,
             infinite: true,
+            autoplaySpeed: 2000,
             speed: 3000,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -66,7 +68,9 @@ $(document).ready(function () {
         }),
         $('.test-slider').slick({
             arrows: false,
+            dots: true,
             infinite: true,
+            autoplaySpeed: 2000,
             speed: 3000,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -95,31 +99,6 @@ $(document).ready(function () {
                     }
                 }
             ]
-        }),
-        $('.card-slider').slick({
-            centerMode: true,
-            arrows: false,
-            slidesToShow: 1,
-            dots: true,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        dots: true,
-                        centerMode: true,
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        dots: true,
-                        centerMode: true,
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
+        })
 })
+
