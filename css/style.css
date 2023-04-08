@@ -2,6 +2,28 @@
 body {
   font-family: "Poppins", sans-serif !important;
 }
+
+.active {
+  color: #f15060 !important;
+}
+
+.btn-active:active {
+  color: white !important;
+  background-color: #f15060 !important;
+}
+
+.btn-active:hover {
+  color: white !important;
+  background-color: #f15060 !important;
+}
+
+.nav-link:active {
+  color: #f15060 !important;
+}
+
+.nav-link:hover {
+  color: #f15060 !important;
+}
 .partner-wrapper {
   width: 100%;
   display: flex;

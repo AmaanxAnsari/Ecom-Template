@@ -20,8 +20,8 @@
 <body>
     <!-- Navbar Section  -->
 
-    <nav class="navbar navbar-expand-lg  rounded py-3" aria-label="Thirteenth navbar example">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg  rounded py-3 sticky-top bg-white">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">LOGO.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-2"
                 aria-controls="navbar-2" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link " href="#partner-title">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Demo</a>
@@ -78,7 +78,7 @@
 
     <!-- Clients Section  -->
     <div class="container my-4 ">
-        <h1 class="partner-title text-center h1 mb-5">
+        <h1 class="partner-title text-center h1 mb-5" id="partner-title">
             Over 1.6k Trusted Companies
         </h1>
         <div class="partner-wrapper mt-3 rounded-4">
@@ -273,24 +273,24 @@
 
                 <div class="d-flex flex-lg-column flex-md-column justify-content-evenly">
                     <div class="btn-wrapper" role="tablist">
-                        <button class="btn btn-md btn-outline-light text-dark my-3 py-3 active " id="gift-tab"
+                        <button class="btn btn-md btn-outline-active text-dark my-3 py-3 active " id="gift-tab"
                             data-bs-toggle="pill" data-bs-target="#gift-coupon" type="button" role="tab"
                             aria-controls="gift-coupon" aria-selected="false">
                             <img src=" ./img/app-icons/giftbox.png" alt="" width="15" height="auto"> GiftCard
                         </button>
-                        <button class="btn btn-md  btn-outline-light text-dark my-3 py-3  " id="apple-tab"
+                        <button class="btn btn-md  btn-outline-active text-dark my-3 py-3  " id="apple-tab"
                             data-bs-toggle="pill" data-bs-target="#apple-coupon" type="button" role="tab"
                             aria-controls="apple-coupon" aria-selected="false">
                             <img src="./img/app-icons/apple.png" alt="" width="15" height="auto"> AppStore
                         </button>
 
 
-                        <button class="btn btn-md  btn-outline-light text-dark  my-3 py-3" id="amazon-tab"
+                        <button class="btn btn-md  btn-outline-active text-dark  my-3 py-3" id="amazon-tab"
                             data-bs-toggle="pill" data-bs-target="#amazon-coupon" type="button" role="tab"
                             aria-controls="amazon-coupon" aria-selected="false">
                             <img src="./img/app-icons/amazon.png" alt="" width="15" height="auto"> Amazon
                         </button>
-                        <button class="btn btn-md  btn-outline-light text-dark my-3 py-3" id="playstore-tab"
+                        <button class="btn btn-md  btn-outline-active text-dark my-3 py-3" id="playstore-tab"
                             data-bs-toggle="pill" data-bs-target="#playstore-coupon" type="button" role="tab"
                             aria-controls="playstore-coupon" aria-selected="false">
                             <img src="./img/app-icons/playstore.png" alt="" width="15" height="auto"> Playstore
