@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce</title>
-    <link rel="shortcut icon" href="./img/app-icons/dribble.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/app-icons/giftbox.png" type="image/x-icon">
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- Slick Slider Css -->
@@ -20,28 +20,28 @@
 <body>
     <!-- Navbar Section  -->
 
-    <nav class="navbar navbar-expand-lg  rounded py-3 sticky-top bg-white">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-2"
-                aria-controls="navbar-2" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg py-3 sticky-top bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/app-icons/giftbox.png" alt="" width="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-lg-flex" id="navbar-2">
+            <div class="collapse navbar-collapse " id="navbar">
 
-                <ul class="navbar-nav col-lg-10 justify-content-lg-center">
+                <ul class="navbar-nav col-lg-10 d-lg-flex justify-content-lg-center h6">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#" aria-selected="true">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#partner-title">Pricing</a>
+                        <a class="nav-link " href="#partner-title" aria-selected="false">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Demo</a>
+                        <a class="nav-link" href="#" aria-selected="false">Demo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQs</a>
+                        <a class="nav-link" href="#" aria-selected="false">FAQs</a>
                     </li>
 
                 </ul>
@@ -65,11 +65,14 @@
                 <p class="text-secondary h4">It only takes 5 minutes and we handle everything
                     form payment to delivery
                 </p>
-                <button class="btn btn-info btn-lg text-light ">Get Started</button>
+                <div class="banner-btn">
+                    <button class="btn btn-info btn-lg text-light ">Get Started</button>
+                </div>
+
             </div>
             <div class="col-lg-7  col-md-6 col-sm-12">
                 <div class="d-flex justify-content-center">
-                    <img src="./img/banner/phone-text.jpg" class="w-75" alt="">
+                    <img src="./img/banner/bann.png" class="w-75 mt-3" alt="">
                 </div>
 
             </div>
@@ -77,7 +80,7 @@
     </div>
 
     <!-- Clients Section  -->
-    <div class="container my-4 ">
+    <div class="container-fluid my-4 p-0">
         <h1 class="partner-title text-center h1 mb-5" id="partner-title">
             Over 1.6k Trusted Companies
         </h1>
@@ -222,43 +225,28 @@
 
 
     <!-- Section Start -->
-    <div class="container my-5 p-5 bg-light rounded-4">
+    <div class="container my-5 py-5">
         <div class="brand-wrapper">
-            <div class="row brand-slider ">
+            <div class="row brand-slider  ">
                 <div class="col-md-12 brand-slide ">
-                    <div class="brand-title display-5">
-                        <p class="h1">Best Gift Cards </p>
-                        <p class="h1">with your Brandings</p>
+                    <div class="px-2 " style="width: 100%;">
+                        <img class="rounded-4" src="./img/banner/banner1.png" alt="" style="width: 100%; ">
                     </div>
-                    <div class="brand-subtitle text-secondary h6">
-                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
-                    </div>
+
                 </div>
                 <div class="col-md-12 brand-slide ">
-                    <div class="brand-title display-5">
-                        <p class="h1">Best Gift Cards </p>
-                        <p class="h1">with your Brandings</p>
-                    </div>
-                    <div class="brand-subtitle text-secondary h6">
-                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
+                    <div class="px-2 " style="width: 100%;">
+                        <img class="rounded-4" src="./img/banner/banner2.png" alt="" style="width: 100%;">
                     </div>
                 </div>
                 <div class="col-md-12 brand-slide">
-                    <div class="brand-title display-5">
-                        <p class="h1">Best Gift Cards </p>
-                        <p class="h1">with your Brandings</p>
-                    </div>
-                    <div class="brand-subtitle text-secondary h6">
-                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
+                    <div class="px-2 rounded-4" style="width: 100%;">
+                        <img class="rounded-4" src="./img/banner/banner3.png" alt="" style="width: 100%;">
                     </div>
                 </div>
                 <div class="col-md-12 brand-slide">
-                    <div class="brand-title display-5">
-                        <p class="h1">Best Gift Cards </p>
-                        <p class="h1">with your Brandings</p>
-                    </div>
-                    <div class="brand-subtitle text-secondary h6">
-                        <p>Easily Design Beautiful Gift Cards/Certificates with your Branding and Logos</p>
+                    <div class="px-2 rounded-4" style="width: 100%;">
+                        <img class="rounded-4" src="./img/banner/banner4.png" alt="" style="width: 100%;">
                     </div>
                 </div>
             </div>
@@ -304,13 +292,13 @@
                     <div class="gift-coupon tab-pane fade active show col-12" id="gift-coupon" role="tabpanel"
                         aria-labelledby="gift-tab" tabindex="0">
                         <div class="d-flex justify-content-center">
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-1.png" class="card-img rounded img-fluid" alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-2.png" class="card-img rounded img-fluid" alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-3.png" class=" card-img rounded img-fluid"
                                     alt="...">
                             </div>
@@ -320,13 +308,13 @@
                     <div class="apple-coupon  tab-pane fade  col-12" id="apple-coupon" role="tabpanel"
                         aria-labelledby="apple-tab" tabindex="0">
                         <div class="d-flex justify-content-center">
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-4.png" class="card-img  img-fluid" alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-5.png" class="card-img  img-fluid" alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-6.png" class=" card-img  img-fluid" alt="...">
                             </div>
                         </div>
@@ -338,13 +326,13 @@
                         aria-labelledby="amazon-tab" tabindex="0">
 
                         <div class="d-flex justify-content-center">
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-7.png" class="card-img  img-fluid" alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-8.png" class="card-img  img-fluid" alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-9.png" class=" card-img  img-fluid" alt="...">
                             </div>
                         </div>
@@ -353,15 +341,15 @@
                     <div class="playstore-coupon  tab-pane fade col-12" id="playstore-coupon" role="tabpanel"
                         aria-labelledby="playstore-tab" tabindex="0">
                         <div class="d-flex justify-content-center">
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-10.png" class="card-img rounded img-fluid"
                                     alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-11.png" class="card-img rounded img-fluid"
                                     alt="...">
                             </div>
-                            <div class="card mx-2">
+                            <div class="card mx-2 border border-0">
                                 <img src="./img/gift-cards/giftCard-12.png" class=" card-img rounded img-fluid"
                                     alt="...">
                             </div>
@@ -387,11 +375,14 @@
                     <p class="h5">Easily Design Beautiful Gift Cards/Certificates with your Branding & Logos.
                         Get access to 100s of beautiful design
                     </p>
-                    <button class="btn btn-warning btn-lg mt-5">Get Started</button>
+                    <div class="banner-btn">
+                        <button class="btn btn-warning btn-lg mt-3">Get Started</button>
+                    </div>
+
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="./img/banner/social-media-chat.png" alt="">
+                <img class="img-fluid" src="./img/banner/gift-group.png" alt="">
 
             </div>
         </div>
